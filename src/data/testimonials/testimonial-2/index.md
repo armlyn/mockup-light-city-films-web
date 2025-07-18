@@ -1,6 +1,6 @@
 ---
-title: HANNAH & MARCO
-testimonial: Hiring Jenna was one of the best decisions we made for our wedding. Not only was their work incredibly professional and artistic, but they also made us feel so comfortable and at ease throughout the entire process.
+title: VIGGO MORTENSEN
+testimonial: He rodado muchas veces en estudios en Los Angeles, Nueva York y otros sitios, y no hay nada mejor allá que lo que tienen ustedes acá.
 image: ./couple-2-crop.jpg
 order: 1
 ---

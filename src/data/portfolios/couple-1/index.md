@@ -1,7 +1,7 @@
 ---
-title: A mountain escape
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
-heroImage: ./couple-9-square.jpg
+title: Alquiler de Cámaras
+description: Nuestro inventario incluye una amplia gama de equipos de última generación, desde cámaras de cine digital hasta equipos especializados para producciones de alta calidad.
+heroImage: ./serv-9-square.jpg
 date: "Aug 5 2024"
 location: Malibu, California
 clients: [Hannah, Marco]

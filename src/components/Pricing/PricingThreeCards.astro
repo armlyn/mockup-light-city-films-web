@@ -6,61 +6,54 @@
 import Button from "@components/Button/Button.astro";
 import { Image } from "astro:assets";
 
-interface pricingItem {
-	name: string; // plan name
+interface filmItem {
+	title: string; // plan name
 	featured?: boolean; // if true, will be highlighted or otherwise featured
-	price: number;
+	year: number;
 	features: string[]; // list of features
 	image: ImageMetadata; // imported image
 }
 
-import image3 from "@assets/images/couple-1-square.jpg";
-import image1 from "@assets/images/couple-5-min.jpg";
-import image2 from "@assets/images/couple-6-crop.jpg";
+import image3 from "@assets/images/film-3.jpg";
+import image1 from "@assets/images/film-1.jpg";
+import image2 from "@assets/images/film-2.jpg";
 
 // This is designed for 3 pricing items, but can be modified to support more
-const pricingData: pricingItem[] = [
+const pricingData: filmItem[] = [
 	{
-		name: "Elopement",
+		title: "Astérix en los JJOO",
 		featured: false,
-		price: 1999,
+		year: 2008,
 		features: [
-			"200+ Professionally Edited Photos",
-			"Private Online Gallery",
-			"*Additional Charge Based On Travel Distance",
-			"*Additional Charge For Videography",
+			"",
 		],
 		image: image1,
 	},
 	{
-		name: "Wedding",
+		title: "Lo Imposible",
 		featured: true,
-		price: 2999,
+		year: 2004,
 		features: [
-			"300+ Professionally Edited Photos",
-			"Private Online Gallery",
-			"All-Day Photography Coverage",
-			"*Additional Charge For Videography",
+			"",
+
 		],
 		image: image2,
 	},
 	{
-		name: "Engagement",
+		title: "Io, Don Giovanni",
 		featured: false,
-		price: 799,
+		year: 2009,
 		features: [
-			"100+ Professionally Edited Photos",
-			"Private Online Gallery",
-			"*Additional Charge Based On Travel Distance",
+			"",
 		],
 		image: image3,
 	},
 ];
 ---
 
-<section id="pricing" class="mx-auto max-w-6xl scroll-mt-10 px-4 py-8 md:py-12">
+<section id="films" class="mx-auto max-w-6xl scroll-mt-10 px-4 py-8 md:py-12">
 	<div class="mx-auto max-w-6xl text-center">
-		<h2 class="h2 text-pretty uppercase">Photography Packages</h2>
+		<h2 class="h2 text-pretty uppercase">Grandes Rodajes en Ciudad de la Luz</h2>
 	</div>
 
 	<!-- works for 3 pricing plans, adjust grid cols here to support more or less -->
@@ -81,7 +74,7 @@ const pricingData: pricingItem[] = [
 						<div class="aspect-[3/4] h-auto w-full overflow-hidden">
 							<Image
 								src={plan.image}
-								alt={plan.name}
+								alt={plan.title}
 								width={450}
 								densities={[1.5, 2]}
 								class="h-full w-full object-cover"
@@ -90,7 +83,7 @@ const pricingData: pricingItem[] = [
 					</div>
 					<div class="border-primary-200 flex h-full flex-col justify-between border-2 border-t-0 pt-10 pb-10">
 						<div>
-							<h3 class="h2 text-center">{plan.name}</h3>
+							<h3 class="h3 text-center">{plan.title}</h3>
 
 							<ul class="mt-4 flex flex-col gap-3 px-8">
 								{plan.features.map((feature) => (
@@ -98,9 +91,8 @@ const pricingData: pricingItem[] = [
 								))}
 							</ul>
 						</div>
-						<p class="font-decorative text-base-800 mt-6 flex justify-center text-center text-[5rem] leading-none">
-							${plan.price}
-							<span class="flex h-full text-[3.5rem]">+</span>
+						<p class="font-decorative text-base-800 mt-6 flex justify-center text-center text-[3rem] leading-none">
+							{plan.year}
 						</p>
 					</div>
 				</div>

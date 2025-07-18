@@ -1,5 +1,5 @@
 ---
-title: A beachside celebration
+title: Laboratorio fotográfico
 description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
 heroImage: ./couple-3-square.jpg
 date: "Jun 12 2024"

@@ -1,5 +1,5 @@
 ---
-title: A high-class affair
+title: Construcción de decorados
 description: Relive the elegance of your venue and the grandeur of your wedding through artistic photography.
 heroImage: ./couple-4-square.jpg
 date: "Apr 15 2024"
