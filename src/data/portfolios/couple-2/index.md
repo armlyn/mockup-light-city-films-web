@@ -1,6 +1,6 @@
 ---
-title: Laboratorio fotográfico
-description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
+title: Laboratorio fotográfico y digital
+description: Ofrecemos un servicio integral de laboratorio fotográfico y digital para apoyar todas las etapas de tu producción audiovisual.
 heroImage: ./couple-3-square.jpg
 date: "Jun 12 2024"
 location: Miami, Florida
@@ -15,4 +15,4 @@ images:
 order: 2
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Ofrecemos un servicio integral de laboratorio fotográfico y digital para apoyar todas las etapas de tu producción audiovisual. Nuestro laboratorio está equipado con la última tecnología para garantizar la más alta calidad en el procesamiento y manipulación de imágenes.

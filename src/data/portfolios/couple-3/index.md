@@ -1,6 +1,6 @@
 ---
 title: Construcción de decorados
-description: Relive the elegance of your venue and the grandeur of your wedding through artistic photography.
+description: Cada decorado es diseñado y construido a medida, adaptándose a las exigencias únicas de tu proyecto.
 heroImage: ./couple-4-square.jpg
 date: "Apr 15 2024"
 location: Houston, Texas
